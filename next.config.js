@@ -1,12 +1,8 @@
-
-/**
- * @type {import('next').NextConfig}
- */
 const nextConfig = {
+  reactStrictMode: true,
   experimental: {
-      taint: true,
-      reactCompiler: true,
+    reactCompiler: true,
   },
-}
- 
-module.exports = nextConfig
+};
+
+module.exports = nextConfig;
